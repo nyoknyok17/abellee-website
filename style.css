@@ -1,0 +1,170 @@
+body {
+    background-color: #ffffff;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+}
+header {
+    background-color: #E8F9FF;
+    background-color: #;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid;
+}
+.logo {
+    width: 200px;
+}
+.logo img {
+    width: 100%;
+}
+.logo img:hover {
+    transform: scale(.9);
+    transition: all .4s ease-in-out;
+}
+nav {
+    background-color: #E8F9FF;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li {
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: blue;
+}
+.hero img {
+    width: 100%;
+}
+.hero-text {
+    background-color: #E8F9FF;
+    color: cadetblue;
+    padding: 10px;
+    text-align: center;
+}
+#about {
+    background-image: url (./asset/HINDIA.png)
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+    padding: 20px;
+}
+#about {
+    background-image: url(./asset/HINDIA.png);
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    padding: 40px;
+    background-color: #f0f1f7;
+  }
+  
+  #about h2 {
+    margin-top: 50px;
+    width: 50%;
+    padding-left: 40px;
+  }
+  #about p {
+    width: 50%;
+    padding-left: 40px;
+    line-height: 1.7em;
+  }
+  #product {
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  
+  #product h2 {
+    text-align: center;
+    color: #344CB7;
+  }
+  
+  
+  .card-product {
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  #contact {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    border: 1PX SOLID #344CB7;
+  }
+  .contact-text {
+    align-items: center;
+    padding-left: 70px;
+  }
+  .contact-text h4 {
+    font-size: xx-large;
+  }
+  .contact-text button {
+    padding: 8px 35px;
+    background-color: #8EACCD;
+    border: none;
+  }
+  .contact-text button:hover {
+    background-color: aliceblue;
+    color: #8EACCD;
+    box-shadow: 3px 3px 20px #344CB7;
+  }
+  .contact-image img {
+    width: 30%;
+  }
+ .contact-image img {
+  width: 200px;
+ }
+  footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #8EACCD;
+    color: black;
+  }
